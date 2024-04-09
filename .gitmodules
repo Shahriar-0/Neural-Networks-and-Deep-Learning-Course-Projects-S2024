@@ -1,0 +1,12 @@
+[submodule "HW1-FullyConnectedNeuralNetworks/Archive/V2"]
+	path = HW1-FullyConnectedNeuralNetworks/Archive/V2
+	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA1.git
+[submodule "Archive/V1"]
+	path = Archive/V1
+	url = https://github.com/Atcold/NYU-DLSP20.git
+[submodule "Archive/V2"]
+	path = Archive/V2
+	url = https://github.com/Atcold/NYU-DLSP21.git
+[submodule "Archive/V3"]
+	path = Archive/V3
+	url = https://github.com/Atcold/NYU-DLFL22
