@@ -10,3 +10,6 @@
 [submodule "Archive/V3"]
 	path = Archive/V3
 	url = https://github.com/Atcold/NYU-DLFL22
+[submodule "HW2-ConvolutionalNeuralNetworks/Archive/V2"]
+	path = HW2-ConvolutionalNeuralNetworks/Archive/V2
+	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA2.git
