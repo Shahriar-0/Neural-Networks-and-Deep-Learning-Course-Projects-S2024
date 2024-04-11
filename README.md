@@ -1,9 +1,6 @@
 # Neural-Networks-and-Deep-Learning-Course-Projects
 
-## Outline
-
 - [Neural-Networks-and-Deep-Learning-Course-Projects](#neural-networks-and-deep-learning-course-projects)
-  - [Outline](#outline)
   - [HW1: Fully Connected Neural Networks](#hw1-fully-connected-neural-networks)
     - [1. McCulloch-Pitts Network](#1-mcculloch-pitts-network)
     - [2. Adversarial Attacks](#2-adversarial-attacks)
