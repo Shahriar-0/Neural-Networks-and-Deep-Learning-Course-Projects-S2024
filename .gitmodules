@@ -13,3 +13,6 @@
 [submodule "HW2-ConvolutionalNeuralNetworks/Archive/V2"]
 	path = HW2-ConvolutionalNeuralNetworks/Archive/V2
 	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA2.git
+[submodule "HW3-RegionbasedCNNs/Archive/V1"]
+	path = HW3-RegionbasedCNNs/Archive/V1
+	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA4.git
