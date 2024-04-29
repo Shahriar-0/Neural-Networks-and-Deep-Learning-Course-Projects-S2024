@@ -16,3 +16,6 @@
 [submodule "HW3-RegionbasedCNNs/Archive/V1"]
 	path = HW3-RegionbasedCNNs/Archive/V1
 	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA4.git
+[submodule "HW3-RegionbasedCNNs/Archive/V2"]
+	path = HW3-RegionbasedCNNs/Archive/V2
+	url = https://github.com/Ipouyall/DeepNeuralNetworkExploration.git
