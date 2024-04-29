@@ -162,3 +162,4 @@ cython_debug/
 
 # keras model of HW2
 HW2-*/**/*.keras
+HW2-*/**/*.json
