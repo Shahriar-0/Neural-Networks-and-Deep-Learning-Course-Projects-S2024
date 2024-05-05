@@ -6,6 +6,9 @@
     - [2. Adversarial Attacks](#2-adversarial-attacks)
     - [3. Adeline and Madeline](#3-adeline-and-madeline)
     - [4. Optimised Neural Network](#4-optimised-neural-network)
+  - [HW2: Convolutional Neural Networks](#hw2-convolutional-neural-networks)
+    - [1. Alzheimers Classification](#1-alzheimers-classification)
+    - [2. Fine-Tuning VGG16 and ResNet-50 and Data Augmentation effect](#2-fine-tuning-vgg16-and-resnet-50-and-data-augmentation-effect)
 
 ## HW1: Fully Connected Neural Networks
 
@@ -26,3 +29,15 @@ In this part, we implemented the Adeline and Madaline algorithms for classificat
 ### 4. Optimised Neural Network
 
 In this part, we tried to see how overfitting and other things can be avoided in a neural network. We see different models for two problems one is classification and the other is regression. We see how the model performs on the training and validation data and how the model can be optimised.
+
+## HW2: Convolutional Neural Networks
+
+In this assignment we designed and worked with Convolutional Neural Networks (CNNs). The assignment is divided into 2 parts:
+
+### 1. Alzheimers Classification
+
+In this part, we implemented a CNN to classify brain MRI images as normal or Alzheimer's. We used the Alzheimer's dataset from Kaggle which contains brain MRI images of patients with Alzheimer's and normal patients. We preprocessed the images by resizing them and normalizing the pixel values to be between 0 and 1. We then trained a CNN on the preprocessed images and evaluated the performance of the CNN on the test set. Three different models were implemented and tested and the results were compared. This part was based on [this paper](https://www.researchgate.net/publication/349874169_A_CNN_based_framework_for_classification_of_Alzheimer's_disease).
+
+### 2. Fine-Tuning VGG16 and ResNet-50 and Data Augmentation effect
+
+In this part, we fine-tuned the VGG16 and ResNet-50 models on the cat-dog dataset from Kaggle. We used the pre-trained models and fine-tuned them on the cat-dog dataset by replacing the last layer of the models with a new layer that has 2 output neurons for the cat and dog classes. We then trained the models on the cat-dog dataset and evaluated the performance of the models on the test set. For both models, we trained them with and without data augmentation and compared the results. This part was based on [this paper](https://pdfs.semanticscholar.org/6086/30604cf7b62579930425ab57cc4191c034c9.pdf).
