@@ -166,3 +166,4 @@ HW2-*/**/*.json
 
 # the MRI dataset in HW3 (it can be found here https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation/data)
 HW3-*/data/MRI
+HW3-*/data/Aquarium-Combined
