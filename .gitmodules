@@ -25,3 +25,12 @@
 [submodule "HW4-RecurrentNeuralNetworks/Archive/V2"]
 	path = HW4-RecurrentNeuralNetworks/Archive/V2
 	url = https://github.com/Hadi-loo/NNDL-CA4-LSTMs.git
+[submodule "HW5-Transformers/Archive/V1"]
+	path = HW5-Transformers/Archive/V1
+	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA5.git
+[submodule "HW5-Transformers/Archive/V2"]
+	path = HW5-Transformers/Archive/V2
+	url = https://github.com/Hadi-loo/NNDL-CA5-Transformers.git
+[submodule "HW4-RecurrentNeuralNetworks/Archive/V4"]
+	path = HW4-RecurrentNeuralNetworks/Archive/V4
+	url = https://github.com/HesamAsad/NeuralNetworksDeepLearning-Fall2022-CA4.git
