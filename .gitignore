@@ -168,6 +168,9 @@ HW2-*/**/*.json
 HW3-*/data/MRI
 HW3-*/data/Aquarium-Combined
 
+# saved weights of HW4
+HW4-*/**/*.npy
+
 # saved weights of HW5
 HW5-*/**/*.h5
 HW5-*/**/*.pth
