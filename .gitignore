@@ -175,5 +175,6 @@ HW4-*/**/*.npy
 HW5-*/**/*.h5
 HW5-*/**/*.pth
 
+Extra/src/fabert/
 
 data/
