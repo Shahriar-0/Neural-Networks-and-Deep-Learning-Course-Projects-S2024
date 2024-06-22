@@ -178,3 +178,6 @@ HW5-*/**/*.pth
 Extra/src/fabert/
 
 data/
+
+# saved weights of HW6
+HW6-*/**/*.h5
