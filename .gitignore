@@ -184,3 +184,4 @@ HW6-*/**/*.h5
 
 # saved weights of HWe
 Extra/**/*.h5
+Extra/**/*.json
