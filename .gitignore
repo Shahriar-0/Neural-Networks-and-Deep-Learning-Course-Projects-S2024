@@ -181,6 +181,7 @@ data/
 
 # saved weights of HW6
 HW6-*/**/*.h5
+HW6-*/**/*.pth
 
 # saved weights of HWe
 Extra/**/*.h5
