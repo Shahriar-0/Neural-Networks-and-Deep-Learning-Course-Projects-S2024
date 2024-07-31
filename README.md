@@ -12,6 +12,9 @@
   - [HW3: Region Based Convolutional Neural Networks](#hw3-region-based-convolutional-neural-networks)
     - [1. Semantic Segmentation using U-Net](#1-semantic-segmentation-using-u-net)
     - [2. Underwater Object Detection using Faster R-CNN](#2-underwater-object-detection-using-faster-r-cnn)
+  - [HW4: Recurrent Neural Networks](#hw4-recurrent-neural-networks)
+    - [1. Semantic Segmentation using a hybrid CNN-LSTM model](#1-semantic-segmentation-using-a-hybrid-cnn-lstm-model)
+    - [2. Remaining Useful Life Prediction using a hybrid CNN-LSTM model](#2-remaining-useful-life-prediction-using-a-hybrid-cnn-lstm-model)
 
 ## HW1: Fully Connected Neural Networks
 
@@ -56,3 +59,15 @@ In this part, we implemented a U-Net model for semantic segmentation of the [thi
 ### 2. Underwater Object Detection using Faster R-CNN
 
 In this part, we implemented a Faster R-CNN model for object detection in underwater images. We used the [this dataset](https://www.kaggle.com/datasets/slavkoprytula/aquarium-data-cots/data) which contains underwater images and their corresponding annotations. First we analyzed the dataset and visualized the images and annotations and their distribution and used the extracted information for RPN and ROI generation. Then we preprocessed the images and used `Albumentations` library for data augmentation, we also used OHEM (Online Hard Example Mining) to improve the performance of the model and used mosaic augmentation to improve the performance of the model. We then trained the Faster R-CNN model on the preprocessed images and evaluated the performance of the model on the test set. We also visualized the predictions of the model on the test set. This part was based on [this paper](https://arxiv.org/abs/1506.01497), and we also add some modifications to it (like using GIoU loss instead of the original loss function) and OHEM to improve the performance of the model. Also the backbone of the model was ResNet-101 unlike the original paper which used VGG-16.
+
+## HW4: Recurrent Neural Networks
+
+In this assignment we designed and worked with Recurrent Neural Networks (RNNs). The assignment is divided into 2 parts:
+
+### 1. Semantic Segmentation using a hybrid CNN-LSTM model
+
+For this part we used different RNN models to using [this dataset](https://www.kaggle.com/datasets/behdadkarimi/persian-tweets-emotional-dataset) to do a semantic analysis. We used normal preprocessing method at first, then we used `ParsBERT` for tokenizing, and after that we first used a CNN and LSTM model to do the analysis then we used a proposed hybrid CNN-LSTM model based on [this paper](https://arxiv.org/ftp/arxiv/papers/2307/2307.07740.pdf) to improve the results.
+
+### 2. Remaining Useful Life Prediction using a hybrid CNN-LSTM model
+
+In this part, we designed and worked with Recurrent Neural Networks (RNNs). The goal of this challenge is to predict the remaining useful life of a machine based on the data collected from it. The data is collected from a machine in a factory. We will use multiple DL models such as CNN, LSTM and a hybrid model to predict the remaining useful life of the machine. This part is based on [this paper](https://www.researchgate.net/publication/358360497_A_hybrid_deep_learning_framework_for_intelligent_predictive_maintenance_of_Cyber-Physical_Systems) and the data can be found [here](https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data), which is NASA's dataset for a jet engine.
