@@ -15,6 +15,9 @@
   - [HW4: Recurrent Neural Networks](#hw4-recurrent-neural-networks)
     - [1. Semantic Segmentation using a hybrid CNN-LSTM model](#1-semantic-segmentation-using-a-hybrid-cnn-lstm-model)
     - [2. Remaining Useful Life Prediction using a hybrid CNN-LSTM model](#2-remaining-useful-life-prediction-using-a-hybrid-cnn-lstm-model)
+  - [HW5: Transformers](#hw5-transformers)
+    - [1. Fake News Detection](#1-fake-news-detection)
+    - [2. Image Classification](#2-image-classification)
 
 ## HW1: Fully Connected Neural Networks
 
@@ -71,3 +74,15 @@ For this part we used different RNN models to using [this dataset](https://www.k
 ### 2. Remaining Useful Life Prediction using a hybrid CNN-LSTM model
 
 In this part, we designed and worked with Recurrent Neural Networks (RNNs). The goal of this challenge is to predict the remaining useful life of a machine based on the data collected from it. The data is collected from a machine in a factory. We will use multiple DL models such as CNN, LSTM and a hybrid model to predict the remaining useful life of the machine. This part is based on [this paper](https://www.researchgate.net/publication/358360497_A_hybrid_deep_learning_framework_for_intelligent_predictive_maintenance_of_Cyber-Physical_Systems) and the data can be found [here](https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6/about_data), which is NASA's dataset for a jet engine.
+
+## HW5: Transformers
+
+In this part, we designed and worked with Transformers. The assignment is divided into 2 parts:
+
+### 1. Fake News Detection
+
+In this part, we wanted to check how much of the news related to COVID-19 are real. For this purpose, we use two methods of transform learning, namely fine-tuning and feature-based, to design a model that can detect fake news, for more information about these you check check [this paper](https://www.sciencedirect.com/science/article/pii/S0950705123003921). We used these two methods on two models of BERT and CT-BERT based on [this paper](https://www.sciencedirect.com/science/article/pii/S0950705123003921). Using these two methods we can detect fake news from real news, with a high accuracy. The data for this part was taken from youtube and twitter and for that it took a lot of preprocessing.
+
+### 2. Image Classification
+
+For this part, we wanted to classify the images of the `CIFAR-10` dataset. This part is inspired by the famous [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929) which describes the ViT model. Since training a transformer from scratch is a tedious and time consuming task, we wanted to use another method called transfer learning, for doing that we followed the instructions of [this paper](https://arxiv.org/ftp/arxiv/papers/2110/2110.05270.pdf) and trained different transformers and CNN networks and fine-tuned them on `CIFAR-10`, using the pre-trained `imagenet1k` weights.
