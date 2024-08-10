@@ -18,6 +18,9 @@
   - [HW5: Transformers](#hw5-transformers)
     - [1. Fake News Detection](#1-fake-news-detection)
     - [2. Image Classification](#2-image-classification)
+  - [HW6: Deep Generative Models](#hw6-deep-generative-models)
+    - [1. Variational Auto-Encoder](#1-variational-auto-encoder)
+    - [2. Image Translation](#2-image-translation)
 
 ## HW1: Fully Connected Neural Networks
 
@@ -86,3 +89,15 @@ In this part, we wanted to check how much of the news related to COVID-19 are re
 ### 2. Image Classification
 
 For this part, we wanted to classify the images of the `CIFAR-10` dataset. This part is inspired by the famous [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929) which describes the ViT model. Since training a transformer from scratch is a tedious and time consuming task, we wanted to use another method called transfer learning, for doing that we followed the instructions of [this paper](https://arxiv.org/ftp/arxiv/papers/2110/2110.05270.pdf) and trained different transformers and CNN networks and fine-tuned them on `CIFAR-10`, using the pre-trained `imagenet1k` weights.
+
+## HW6: Deep Generative Models
+
+This part is designed to work with Deep Generative Models. It consists of two parts:
+
+### 1. Variational Auto-Encoder
+
+This part focuses on working with different kind of VAEs (Variational Auto-Encoders) such as, VAE, CVAE, VQ-VAE, etc. Datasets used in this part are [Anime Dataset](https://www.kaggle.com/datasets/splcher/animefacedataset) and [Cartoon Face Dataset](https://www.kaggle.com/datasets/brendanartley/cartoon-faces-googles-cartoon-set). The VQ-VAE model and VQ-VAE 2 models are respectively based on [this paper](https://arxiv.org/abs/1711.00937), and [this paper](https://arxiv.org/abs/1906.00446).
+
+### 2. Image Translation
+
+Image Translation is the process of creating an image from another image. In this assignment we used Pix2Pix model which is based on [this paper](https://arxiv.org/abs/1611.07004). Then we used the implemented model on [this dataset](https://efrosgans.eecs.berkeley.edu/pix2pix/datasets/) and evaluated the performance of the model on the test set.
