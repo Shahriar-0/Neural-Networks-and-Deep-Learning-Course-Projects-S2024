@@ -21,6 +21,11 @@
   - [HW6: Deep Generative Models](#hw6-deep-generative-models)
     - [1. Variational Auto-Encoder](#1-variational-auto-encoder)
     - [2. Image Translation](#2-image-translation)
+  - [HW Extra](#hw-extra)
+    - [1. Labelling Using Clustering](#1-labelling-using-clustering)
+    - [2. Data Augmentation in FaBERT](#2-data-augmentation-in-fabert)
+    - [3. Wake Word Detection](#3-wake-word-detection)
+    - [4. Image Segmentation](#4-image-segmentation)
 
 ## HW1: Fully Connected Neural Networks
 
@@ -101,3 +106,23 @@ This part focuses on working with different kind of VAEs (Variational Auto-Encod
 ### 2. Image Translation
 
 Image Translation is the process of creating an image from another image. In this assignment we used Pix2Pix model which is based on [this paper](https://arxiv.org/abs/1611.07004). Then we used the implemented model on [this dataset](https://efrosgans.eecs.berkeley.edu/pix2pix/datasets/) and evaluated the performance of the model on the test set.
+
+## HW Extra
+
+This was an extra assignment, a part to access our general knowledge.
+
+### 1. Labelling Using Clustering
+
+In this part we wanted to carry out a semisupervised learning to label and cluster the two famous `MNIST` and `Fashion MNIST` datasets. At first we a fully convolutional encoder to get the features of the images, and then we used KMEANS clustering to label them. The encoder was trained as a part of an auto-encoder, designed to reconstruct the images.
+
+### 2. Data Augmentation in FaBERT
+
+In this part, we were assigned to learn about data augmentation methods in NLP. The dataset we used for this part was [DeepSentiPers](https://github.com/JoyeBright/DeepSentiPers). For data augmentation we used a back translation technique and doubled our data size, then we used bert model for doing a semantic analysis on this dataset.
+
+### 3. Wake Word Detection
+
+In this part, we wanted to detect if an audio contains a wake word or not. The data for this part was produced and gathered by ourselves and can be replicated using the methods in the source. After that, we used different methods of preprocessing and data augmentation to make the data more suitable for training, and then we used different models to detect the wake word.
+
+### 4. Image Segmentation
+
+For last part, we wanted to segment the images. The data for this part was [SUIM](https://irvlab.cs.umn.edu/resources/suim-dataset) dataset and we used U-Net and after that a more advanced Ta-U-Net model. The train dataset contains about 1500 RGB images and the test dataset contains about 100 RGB images. For better results we normalized the images to be between 0 and 1 and used data augmentation to make the data more suitable for training. Most of the implementation of the model was based on [this paper](https://www.mdpi.com/1424-8220/22/12/4438), although some changes were made to make the model more efficient.
